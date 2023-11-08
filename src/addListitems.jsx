@@ -16,7 +16,6 @@ function ListItemComponent({ item, index }) {
       display: isDeleted ? 'none' : 'flex'
       
     };
-   
   return (
     <div style={liStyle} delete={isDeleted} className='flex listitems'>
       <div className='flex'>
